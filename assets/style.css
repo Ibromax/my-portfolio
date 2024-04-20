@@ -644,7 +644,9 @@ button.ftnBtn:hover {
   transform: scale(1.05);
   background-color: #F0F8FF;
 }
-
+.footer nav ul li{
+  list-style :none;
+}
 .footer .socialLinks2 {
   display: none;
 }
