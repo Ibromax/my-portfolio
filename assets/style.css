@@ -88,7 +88,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(240, 248, 255, 0.15) !important;
+  background: rgba(240, 248, 255, 0.8) !important;
   border-bottom: 1px solid #333;
   cursor: pointer;
   transition: all 0.45s ease;
@@ -97,7 +97,7 @@ header {
 }
 
 header.sticky {
-  background-color: rgba(240, 248, 255, 0.15);
+  background-color: rgba(240, 248, 255, 0.8);
   border-bottom: 1px solid #ffffff1a;
   backdrop-filter: blur(10px);
   overflow: hidden;
@@ -123,11 +123,11 @@ header nav ul {
 nav ul li a {
   font-weight: 700;
   text-decoration: none;
-  color:#E38019 !important;
+  color:#000 !important;
 }
 
 nav ul li a:hover {
-  color: #F0F8FF !important;
+  color: #E38019 !important;
   text-decoration: 3px solid #E38019 underline;
 }
 
@@ -469,7 +469,7 @@ a.resumeBtn i {
 
 .portLayer h4 {
   /* color: #E38019; */
-  color: #fff;
+  color: #000;
 }
 
 .portLayer .layerLinks i {
