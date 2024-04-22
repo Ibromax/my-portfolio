@@ -88,7 +88,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(240, 248, 255, 0.15) !important;
+  background: rgba(240, 248, 255, 0.8) !important;
   border-bottom: 1px solid #333;
   cursor: pointer;
   transition: all 0.45s ease;
@@ -97,7 +97,7 @@ header {
 }
 
 header.sticky {
-  background-color: rgba(240, 248, 255, 0.15);
+  background-color: rgba(240, 248, 255, 0.8);
   border-bottom: 1px solid #ffffff1a;
   backdrop-filter: blur(10px);
   overflow: hidden;
@@ -123,12 +123,12 @@ header nav ul {
 nav ul li a {
   font-weight: 700;
   text-decoration: none;
-  color:#E38019 !important;
+  color:#171a21 !important;
 }
 
 nav ul li a:hover {
-  color: #F0F8FF !important;
-  text-decoration: 3px solid #E38019 underline;
+  color: #E38019 !important;
+  text-decoration: 3px solid #fff underline;
 }
 
 nav ul li a.active {
@@ -273,8 +273,6 @@ i.fab:hover {
   transform: scale(1.15);
   background-color: #E38019;
 }
-
-
 
 
 /* About Styling */
@@ -467,9 +465,9 @@ a.resumeBtn i {
   transition: height 0.5s;
 }
 
-.portLayer h4 {
+.portLayer h4, .portLayer h5 {
   /* color: #E38019; */
-  color: #fff;
+  color: #000;
 }
 
 .portLayer .layerLinks i {
@@ -647,12 +645,16 @@ button.ftnBtn:hover {
 .footer nav ul li{
   list-style :none;
 }
+
+.footer nav ul li a {
+  font-weight: 500;
+  color:#cfe6fa !important;
+}
+
 .footer .socialLinks2 {
   display: none;
 }
-.footer li a:hover{
-  color: #E38019;
-}
+
 .fa-arrow-up {
   width: 40px;
   height: 40px;
@@ -681,9 +683,6 @@ i:hover{
 @media (max-width:920px) {
   header nav ul{
     margin-left: 0;
-  }
-  header{
-    background-color: #cfe6fa;
   }
   
   .hero{
@@ -764,11 +763,11 @@ i:hover{
   }
   .skillsLogo {
     flex-wrap: wrap;
-   
     }
     .skillsLogo img{
       width: 30px;
       height: auto;
+      margin: 8px;
     }
     .hero_info h1 {
       padding-top:20%;
